@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Beautiful Data JSP Page For HIT DevOps Final Project</title>
+    <title>HIT DevOps Final Project</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,7 +34,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Welcome to the Beautiful Data JSP Page</h2>
+        <h2>Welcome to the Beautiful JSP Page HIT Final Project DevOps</h2>
         <h2> Shahar Tevelov </h2>
         <h2> Dor Slagter </h2>
         <p>This is an enhanced example of a JSP file with better styling.</p>
