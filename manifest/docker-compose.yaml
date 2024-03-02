@@ -7,6 +7,7 @@ services:
       - "8080:8080"
     volumes:
       - /Users/slagter/opt/Devops-final-project/jenkins:/var/jenkins_home:rw
+      - /Users/slagter/opt/Devops-final-project/tomcat:/var/jenkins_home/tomcat:rw
     user: "1000:1000"
     restart: always
 
