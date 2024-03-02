@@ -61,7 +61,7 @@ The project consists of the following components:
 
 6. Docker Compose File
    ```yaml
-   # version: '3.8'
+version: '3.8'
 
 services:
   jenkins:
@@ -80,4 +80,3 @@ services:
     volumes:
       - /Users/slagter/opt/Devops-final-project/tomcat:/usr/local/tomcat/webapps
     restart: always
-
