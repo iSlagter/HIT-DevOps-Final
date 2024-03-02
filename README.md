@@ -61,4 +61,23 @@ The project consists of the following components:
 
 6. Docker Compose File
    ```yaml
-   # Your docker-compose.yaml content goes here
+   # version: '3.8'
+
+services:
+  jenkins:
+    image: jenkins/jenkins:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - /Users/slagter/opt/Devops-final-project/jenkins:/var/jenkins_home:rw
+    user: "1000:1000"
+    restart: always
+
+  tomcat:
+    image: tomcat:latest
+    ports:
+      - "8081:8080"
+    volumes:
+      - /Users/slagter/opt/Devops-final-project/tomcat:/usr/local/tomcat/webapps
+    restart: always
+
