@@ -24,7 +24,7 @@ The project consists of the following components:
 - Repository URL: [GitHub Repository](https://github.com/iSlagter/HIT-DevOps-Final.git)
 
 ### Jenkins
-1. Create a folder on the Ubuntu server for Jenkins.
+1. Create a folder on the macOS server for Jenkins.
 2. Pull the Jenkins Docker image and run it with volume mapping.
 3. Configure Jenkins to be accessible from outside.
 4. Set up Jenkins jobs:
