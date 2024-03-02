@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Beautiful Data JSP Page</title>
+    <title>Beautiful Data JSP Page For HIT DevOps Final Project</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,6 +35,8 @@
 <body>
     <div class="container">
         <h2>Welcome to the Beautiful Data JSP Page</h2>
+        <h2> Shahar Tevelov </h2>
+        <h2> Dor Slagter </h2>
         <p>This is an enhanced example of a JSP file with better styling.</p>
         <p class="date">Current Date: <%= new java.util.Date() %></p>
     </div>
