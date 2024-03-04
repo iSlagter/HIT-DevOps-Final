@@ -36,7 +36,7 @@
     <div class="container">
         <h2>Welcome to the Beautiful JSP Page HIT Final Project DevOps</h2>
         <h2> Shahar Tevelov </h2>
-        <h2> Ziv Vilozni </h2>
+        <h2> uv vaknin hamalka </h2>
         <h2> Dor Slagter </h2>
         <p>This is an enhanced example of a JSP file with better styling.</p>
         <p class="date">Current Date: <%= new java.util.Date() %></p>
